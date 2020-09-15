@@ -1,0 +1,268 @@
+/*================GOOGLE FONTS===============*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Pacifico&family=Roboto:wght@300;400;700;900&display=swap');
+
+
+
+/*================GOOGLE FONTS===============*/
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,ol
+{
+    list-style-type: none;
+}
+
+/*============navbar part css start=============*/
+
+.navbar
+{
+    padding: 40px 0;
+    background: red;
+}
+
+
+.navbar ul.navbar-nav
+{
+    padding-right: 70px;
+}
+
+.navbar ul.navbar-nav li 
+{
+    padding-left: 50px;
+}
+
+.navbar ul.navbar-nav li.nav-item a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    transition: all linear 0.3s;
+}
+
+
+.navbar ul.navbar-nav li.nav-item a:hover
+{
+    color: #ffffff;
+}
+/*===================banner part css start=============*/
+
+.banner
+{
+    position: relative;
+}
+
+.banner-img
+{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+
+.banner-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.90);
+}
+
+.banner-text h2
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    font-weight: 400;
+    color: aqua;
+    padding-top: 20px;
+}
+
+.banner-icon
+{
+    padding-top: 120px;
+}
+
+.banner-icon a
+{
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+/*==============about part css start===========*/
+
+.about-area
+{
+    padding: 50px 0;
+    background: #cfe3cf;
+}
+
+.about-img
+{
+    padding-left: ;
+}
+
+.about-text
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-text h2
+{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+/*=============blog part css satart===========*/
+
+.blog-area
+{
+    background: #e8e8e8;
+    padding: 50px 0;
+}
+
+.blog-img img
+{
+    width: 100%;
+}
+
+.blog-text h2
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    color: #000000;
+    line-height: 44px;
+}
+
+/*==============contact part css start==============*/
+
+.contact-img
+{
+    background: url(../images/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.contact-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.contact-text h2
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    
+}
+
+.contact-icon
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.contact-icon a
+{
+    text-decoration: none;
+    padding-left: 35px;
+    font-size: 36px;
+    transition: all linear 0.3s;
+}
+
+.contact-icon a:hover
+{
+    color: red;
+}
+
+.contact-overlay input
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.contact-overlay button
+{
+    position: absolute;
+    top: 80%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+}
+
+/*============copyright part css start==============*/
+
+
+.copy h3
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+    font-family: 'Krona One', sans-serif;
+
+    font-family: 'Pacifico', cursive;
+
+    font-family: 'Roboto', sans-serif;
